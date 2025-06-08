@@ -4,7 +4,9 @@
   "description": "Chat by @GitForever",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server"
   },
   "repository": {
     "type": "git",
@@ -24,4 +26,7 @@
   "devDependencies": {
     "nodemon": "^3.1.10"
   }
+ 
 }
+
+
