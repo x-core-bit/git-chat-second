@@ -1,0 +1,27 @@
+{
+  "name": "git-chat",
+  "version": "1.0.0",
+  "description": "Chat by @GitForever",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/x-core-bit/Git-chat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/x-core-bit/Git-chat/issues"
+  },
+  "homepage": "https://github.com/x-core-bit/Git-chat#readme",
+  "dependencies": {
+    "socket.io": "^4.8.1",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

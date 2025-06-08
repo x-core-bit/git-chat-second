@@ -1,2 +1,2 @@
-# git-chat-second
-chat
+# Git-chat
+Chat by @GitForever
