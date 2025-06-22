@@ -1,1 +1,1 @@
-alert('welcome to my chat')
+const socket = io();

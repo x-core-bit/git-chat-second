@@ -1,25 +1,60 @@
 * {
-    padding: 0px;
-    margin: 0px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
 }
 
 body {
-    background-image: url(/Background/picture.jpg);
+    background-image: url(background/picture.jpg);
 }
 
-h1 {
-    color: rgb(255, 255, 255);
-    text-align: center;
+main {
+    position: relative;
+    height: 100vh;
 }
+
 .header {
-    background-color: rgb(78, 71, 71);
-    /* position: fixed; */
-    
+    position: fixed;
+    padding: 1rem;
+    text-align: center;
+    width: 100%;
+    font-size: 2rem;
+    background-color: #4a4b50;
+    color: #ffffff;
+    height: 4.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 #form {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     display: flex;
-    width: 100px;
-    height: 1.90rem;
-    padding: 10px;
+}
+
+#input {
+    width: 100%;
+    height: 4.5rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.submit {
+    background-color: #343538;
+    color: #ffffff;
+    padding: 0 2rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
