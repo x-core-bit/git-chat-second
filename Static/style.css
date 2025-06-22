@@ -58,3 +58,12 @@ ul {
     flex-direction: column;
     align-items: flex-start;
 }
+
+li {
+    background-color: #3d3f47;
+    border-radius: 1rem;
+    color: #ffffff;
+    padding: 1rem;
+    font-size: 1.5rem;
+    margin: 0.5rem;
+}
